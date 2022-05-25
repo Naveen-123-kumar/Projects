@@ -21,15 +21,16 @@ body {
 .name1 {
   font-size: 32px;
   width: 25%;
-padding-left: 5%;
+  padding-left: 5%;
   text-align: left;
+  font-weight: bolder;
+  color: forestgreen;
 }
 .menu {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
   text-align: right;
-
 }
 a {
   text-decoration: none;
@@ -62,8 +63,7 @@ a:hover {
   padding-top: 40px;
   font-size: 1.5rem;
 }
-
-input {
+button {
   width: 140px;
   border-radius: 8px;
   padding-top: 12px;
@@ -74,11 +74,12 @@ input {
   cursor: pointer;
   font-size: 1rem;
 }
-input:hover {
+
+button:hover {
   padding: 15px;
 }
 
-input:disabled {
+button:disabled {
   background-color: rgb(233, 217, 75);
 }
 .rightpart {
@@ -131,7 +132,7 @@ input:disabled {
   height: 110vh;
 }
 #portfolio_text {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bolder;
   color: rgb(27, 131, 97);
   text-align: center;
@@ -195,10 +196,10 @@ input:disabled {
   font-weight: bolder;
 }
 .card_container {
-    margin-top: 5%;
+  margin-top: 5%;
   height: 70vh;
   background-color: white;
-  
+
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -210,7 +211,6 @@ input:disabled {
   border-radius: 8px;
   color: black;
   padding-bottom: 30px;
-  
 
   padding: 10px;
 }
@@ -224,13 +224,12 @@ input:disabled {
 .name {
   padding-top: 10px;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   width: 100%;
   margin: auto;
 }
 .profession {
   font-size: 1.5rem;
-
 }
 .intro {
   padding-top: 20px;
@@ -238,49 +237,103 @@ input:disabled {
   font-size: 1.2rem;
   letter-spacing: 0.2px;
   text-align: justify;
-
 }
-.bottombar{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: orange;
-    font-weight: bolder;
-    background-color: rgb(233, 211, 215);
-    position: relative;
-    z-index: 1;
+.bottombar {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  font-weight: bolder;
+  background-color: rgb(233, 211, 215);
+  position: relative;
+  z-index: 1;
 }
-.contact_container{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-    margin-top: 30px;
+.contact_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  margin-top: 30px;
 }
-.left_contact{
-width: 50%;
-height: 90vh;
-background-color: white;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-}
-.right_contact{
-width: 50%;
-height: 90vh;
-background-color: rgb(233, 211, 215);
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
+.left_contact {
+  width: 47%;
+  height: 83vh;
+  padding: 2%;
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
+justify-content: space-around;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.part{
+    display: flex;
+    width: 80%;
+    
+
 
 }
-input{
-    width: 70%;
-    height: 5vh;
+#connect {
+  color: forestgreen;
+
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+}
+#message {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: forestgreen;
+  text-align: center;
+}
+#text1 {
+  text-align: justify;
+  font-size: 1.2rem;
+
+  padding: 5px;
+  letter-spacing: 0.3px;
+}
+.right_contact {
+  width: 50%;
+  height: 83vh;
+  padding: 2%;
+  background-color: rgb(233, 211, 215);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(233, 211, 215);
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+input {
+  width: 70%;
+  height: 5vh;
+  border-radius: 5px;
+  margin-inline: auto;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+label {
+  width: 70%;
+  margin: auto;
+}
+#sendmessage {
+  margin: auto;
+  background-color: orange;
+}
+#message {
+  height: 15vh;
 }

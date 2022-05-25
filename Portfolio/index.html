@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
   </head>
@@ -27,8 +31,8 @@
             <p>Get ready to turn ideas into reality.</p>
           </div>
           <div>
-            <input type="button" value="Hire Me" />
-            <input type="button" value="Get Resume" disabled />
+            <button>Hire Me</button>
+            <button disabled>Get Resume</button>
           </div>
         </div>
       </div>
@@ -101,21 +105,59 @@
         <div id="portfolio_text">Contact Me</div>
 
         <div class="contact_container">
-          <div class="left_contact"></div>
+          <div class="left_contact">
+            <div id="connect">Let's connect</div>
+            <div id="text1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+              consequuntur est consequatur delectus, sequi, soluta fuga nemo
+              debitis assumenda molestias perspiciatis autem dolores non a amet
+              tenetur ullam repellat fugit!
+            </div>
+            <div class="part">
+                <span class="material-icons" style="padding-right: 20px;"> mail </span>
+                <div>1998naveenk@gmail.com</div>
+            </div>
+            
+            <div class="part">
+                <span class="material-icons" style="padding-right: 20px;"> phone </span>
+                <div>7654888461</div>
+            </div>
+            <div class="part">
+                <span class="material-icons" style="padding-right: 20px;"> location_on </span>
+                <div>Gali no.08 Wazirabad</div>
+            </div>
+            
+            
+          </div>
           <div class="right_contact">
-            <div>Send me a message:</div>
+            <div id="message">Send me a message:</div>
 
             <label for="name">First & Last Name</label>
-            <input type="text" name="name" id="name" value="" />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              value=""
+              class="input1"
+              required
+            />
             <label for="phonenumber"> Phone number </label>
-            <input type="number" name="" id="phonenumber" />
+            <input
+              type="number"
+              name=""
+              id="phonenumber"
+              class="input1"
+              required
+            />
             <label for="email"> Email address </label>
-            <input type="email" name="" id="email" />
+            <input type="email" name="" id="email" class="input1" required />
             <label for="message">Message </label>
-            <input type="text" name="" id="message" />
-            <input type="submit" value="Send Message">
+            <input type="text" name="" id="message" class="input1" required />
+            <!-- <input type="submit" value="Send Message" /> -->
+            <button id="sendmessage">Send Message</button>
           </div>
         </div>
+        <div class="footer">@ 2022 Naveen Singh. All rights reserved.</div>
       </div>
     </div>
   </body>
