@@ -16,11 +16,11 @@
       <div class="navbar">
         <div class="name1">NAVEEN KUMAR</div>
         <div class="menu">
-          <a href="">Home</a>
-          <a href="">About</a>
-          <a href="">Portfolio</a>
-          <a href="">Resume</a>
-          <a href="">Contact</a>
+          <a href="#">Home</a>
+          <a href="#about1">About</a>
+          <a href="#portfolio1">Portfolio</a>
+          <a href="#resume1">Resume</a>
+          <a href="#contact1">Contact</a>
         </div>
       </div>
       <div class="home">
@@ -32,31 +32,31 @@
           </div>
           <div>
             <button>Hire Me</button>
-            <button disabled>Get Resume</button>
+            <button disabled id="get">Get Resume</button>
           </div>
         </div>
       </div>
-      <div class="aboutme">
+      <div class="aboutme" id="about1">
         <div class="leftaboutme"></div>
         <div class="rightaboutme">
           <div id="about">About Me</div>
           <div class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit
-            sunt aliquid, aperiam atque labore. Praesentium id eligendi, maxime
-            magnam dolor a consequatur facilis aliquid vel eaque est amet,
-            architecto obcaecati recusandae distinctio optio pariatur neque,
-            dolores quibusdam quam ex nam ipsa minus? Veniam amet nam dicta illo
-            ullam. Recusandae.
+            I am a web designer & Front-end Developer experiance of 6 Months.I
+            am good in HTML and CSS.I have completed my BTech from Indian
+            Institute of Information Technology Kalyani,West Bengal in 2020.My
+            branch in Computer Science and Engineering. A passionate, highly
+            motivated, level student with keen interest in learning, developing
+            skills in full-stack web applications using React js as frontend and
+            Nodejs as backend. Competent to perform with either group or freely
+            and self-managing.
           </div>
           <div class="text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
-            error totam quam, at natus assumenda voluptates provident ducimus
-            sint amet.
+            I am seeking for job in this perticular area so that I can give something better to the company and also want to keep learning new Technology in parallel.
           </div>
-          <div class="lower_right">Languages/Libray/Technology</div>
+          <div class="lower_right"></div>
         </div>
       </div>
-      <div class="portpolio">
+      <div class="portpolio" id="portfolio1">
         <div id="portfolio_text">My Portfolio</div>
         <div class="grid-container">
           <grid class="grid-item item1"></grid>
@@ -66,6 +66,32 @@
           <grid class="grid-item item5"></grid>
           <grid class="grid-item item6"></grid>
         </div>
+      </div>
+      <div class="resumeheading" id="resume1">Resume</div>
+
+      <div class="myresume">
+        <div class="resumeleft_container">
+          <div class="workexper">Work Experiance</div>
+          <ul>
+            <li>
+              FullStack Developer Intern at Mungr.org a startup Designed
+              Navigation bar,Profile Page,Modal with Dropdown by using ReactJS
+              and Material-ui.
+            </li>
+          </ul>
+          <div class="education">Education</div>
+          <ul>
+            <li>
+              BTech in Computer Science and Engineering IIIT Kalyani ,West
+              Bengal Aug 2016-May 2020 CGPA: 7.8
+            </li>
+            <li>
+              Vidya Niketan , Mahnar,Vaishali(Bihar)— 10 th April 2011 - March
+              2013 CGPA: 9.6
+            </li>
+          </ul>
+        </div>
+        <div class="resumeright_container"></div>
       </div>
       <div class="perception">
         <div class="topheading">What People says about me</div>
@@ -82,8 +108,8 @@
           </div>
           <div class="card card2">
             <div class="avatar"></div>
-            <div class="name">Naveen Kumar</div>
-            <div class="profession">Software Developer</div>
+            <div class="name">Aniket Singh</div>
+            <div class="profession">Mechanical Engineer</div>
             <div class="intro">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
               labore id cupiditate velit explicabo assumenda officia quod
@@ -91,8 +117,8 @@
             </div>
           </div>
           <div class="card card1">
-            <div class="avatar"></div>
-            <div class="name">Naveen Kumar</div>
+            <div class="avatar avatar1"></div>
+            <div class="name">Ritika Joshi</div>
             <div class="profession">Software Developer</div>
             <div class="intro">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A,
@@ -102,63 +128,74 @@
           </div>
         </div>
         <div class="bottombar">View more testomonials</div>
-        <div id="portfolio_text">Contact Me</div>
+      </div>
+      <div id="portfolio_text">Contact Me</div>
 
-        <div class="contact_container">
-          <div class="left_contact">
-            <div id="connect">Let's connect</div>
-            <div id="text1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-              consequuntur est consequatur delectus, sequi, soluta fuga nemo
-              debitis assumenda molestias perspiciatis autem dolores non a amet
-              tenetur ullam repellat fugit!
-            </div>
-            <div class="part">
-                <span class="material-icons" style="padding-right: 20px;"> mail </span>
-                <div>1998naveenk@gmail.com</div>
-            </div>
-            
-            <div class="part">
-                <span class="material-icons" style="padding-right: 20px;"> phone </span>
-                <div>7654888461</div>
-            </div>
-            <div class="part">
-                <span class="material-icons" style="padding-right: 20px;"> location_on </span>
-                <div>Gali no.08 Wazirabad</div>
-            </div>
-            
-            
+      <div class="contact_container" id="contact1">
+        <div class="left_contact">
+          <div id="connect">Let's connect</div>
+          <div id="text1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            consequuntur est consequatur delectus, sequi, soluta fuga nemo
+            debitis assumenda molestias perspiciatis autem dolores non a amet
+            tenetur ullam repellat fugit!
           </div>
-          <div class="right_contact">
-            <div id="message">Send me a message:</div>
+          <div class="part">
+            <span
+              class="material-icons"
+              style="padding-right: 20px; color: lightgray"
+            >
+              mail
+            </span>
+            <div style="color: gray">1998naveenk@gmail.com</div>
+          </div>
 
-            <label for="name">First & Last Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              value=""
-              class="input1"
-              required
-            />
-            <label for="phonenumber"> Phone number </label>
-            <input
-              type="number"
-              name=""
-              id="phonenumber"
-              class="input1"
-              required
-            />
-            <label for="email"> Email address </label>
-            <input type="email" name="" id="email" class="input1" required />
-            <label for="message">Message </label>
-            <input type="text" name="" id="message" class="input1" required />
-            <!-- <input type="submit" value="Send Message" /> -->
-            <button id="sendmessage">Send Message</button>
+          <div class="part">
+            <span
+              class="material-icons"
+              style="padding-right: 20px; color: lightgrey"
+            >
+              phone
+            </span>
+            <div style="color: gray">7654888461</div>
+          </div>
+          <div class="part">
+            <span
+              class="material-icons"
+              style="padding-right: 20px; color: lightgrey"
+            >
+              location_on
+            </span>
+            <div style="color: gray">Gali no.08 Wazirabad</div>
           </div>
         </div>
-        <div class="footer">@ 2022 Naveen Singh. All rights reserved.</div>
+        <div class="right_contact">
+          <div id="message">Send me a message:</div>
+          <label for="name">First & Last Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            value=""
+            class="input1"
+            required
+          />
+          <label for="phonenumber">Phone number</label>
+          <input
+            type="number"
+            name=""
+            id="phonenumber"
+            class="input1"
+            required
+          />
+          <label for="email"> Email address </label>
+          <input type="email" name="" id="email" class="input1" required />
+          <label for="message">Message </label>
+          <input type="text" name="" id="message" class="input1" required />
+          <button id="sendmessage">Send Message</button>
+        </div>
       </div>
+      <div class="footer">@ 2022 Naveen Singh. All rights reserved.</div>
     </div>
   </body>
 </html>

@@ -5,17 +5,17 @@ body {
 .main {
   width: 90%;
   margin: auto;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   min-height: 500vh;
 }
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 10vh;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(242, 234, 234);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 .name1 {
@@ -40,6 +40,7 @@ a:hover {
   color: darkorange;
 }
 .home {
+margin-top: 6%;
   width: 100%;
   height: 75vh;
   background-color: rgb(27, 131, 97);
@@ -74,7 +75,9 @@ button {
   cursor: pointer;
   font-size: 1rem;
 }
-
+#get{
+  position: relative;
+}
 button:hover {
   padding: 15px;
 }
@@ -87,14 +90,18 @@ button:disabled {
   border: 2px solid blue;
 }
 .aboutme {
+  padding-top: 3%;
   height: 60vh;
   width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  background-color: whitesmoke;
 }
 .leftaboutme {
+  background-image: url("./Assets/image3.png");
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  background-position: center;
   width: 40%;
 }
 .rightaboutme {
@@ -115,16 +122,12 @@ button:disabled {
   color: rgb(27, 131, 97);
 }
 .lower_right {
-  color: rgb(27, 131, 97);
-
-  font-size: 1rem;
-  padding: 15px;
+  background-image: url("./Assets/Technology.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 94%;
-  background-color: aliceblue;
-  height: 15vh;
+  height: 18vh;
   border-radius: 5px;
-  z-index: 1;
-  box-shadow: 5px 5px 0px 2px white;
 }
 .portpolio {
   width: 90%;
@@ -139,7 +142,7 @@ button:disabled {
   border-bottom: 8px solid darkorange;
   width: 25%;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 6%;
   padding-bottom: 10px;
 }
 .grid-container {
@@ -147,15 +150,12 @@ button:disabled {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: aliceblue;
   display: grid;
   grid-template-columns: 305px 305px auto;
   grid-template-rows: 250px 280px 220px 240px;
   gap: 10px 10px;
 }
-
 .grid-item {
-  /* background-color: white; */
   padding: 10px;
   font-size: 24px;
   border-radius: 10px;
@@ -180,6 +180,56 @@ button:disabled {
 .item6 {
   background-image: url("./Assets/6.webp");
 }
+.myresume {
+  width: 90%;
+  margin: auto;
+  height: 70vh;
+  display: flex;
+}
+.resumeheading {
+  padding-top: 6%;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: forestgreen;
+}
+.resumeleft_container {
+  width: 60%;
+  height: 60vh;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: forestgreen;
+  padding-right: 20px;
+}
+.workexper {
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  font-size: 1.6rem;
+}
+.education {
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  font-size: 1.6rem;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  color: lightslategray;
+  font-size: 1.2rem;
+}
+
+.resumeright_container {
+  width: 40%;
+  height: 60vh;
+  background-image: url("./Assets/image3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .perception {
   width: 90%;
   margin: auto;
@@ -198,8 +248,6 @@ button:disabled {
 .card_container {
   margin-top: 5%;
   height: 70vh;
-  background-color: white;
-
   align-items: center;
   display: flex;
   justify-content: space-evenly;
@@ -207,53 +255,64 @@ button:disabled {
 .card {
   width: 28%;
   height: 55vh;
-  background-color: white;
+  background-color: rgb(240, 247, 247);
   border-radius: 8px;
-  color: black;
+  color: gray;
   padding-bottom: 30px;
-
   padding: 10px;
 }
 .avatar {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin: auto;
   border-radius: 50%;
-  background-color: brown;
+  background-image: url("./Assets/avatarboy.jpg");
+  background-size: cover;
+}
+.avatar1{
+  background-image: url('./Assets/ProfileIcon.svg');
 }
 .name {
+  color: black;
   padding-top: 10px;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2rem;
   width: 100%;
   margin: auto;
 }
 .profession {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .intro {
   padding-top: 20px;
-
-  font-size: 1.2rem;
+color: rgb(56, 52, 52);
+  font-size: 1.1rem;
   letter-spacing: 0.2px;
   text-align: justify;
 }
 .bottombar {
-  width: 100%;
+  width: 95%;
   text-align: center;
+  margin: auto;
   font-size: 2rem;
   height: 15vh;
   display: flex;
+  border-radius: 5px;
   justify-content: center;
   align-items: center;
-  color: orange;
+  color: rgb(218, 197, 159);
   font-weight: bolder;
-  background-color: rgb(233, 211, 215);
-  position: relative;
-  z-index: 1;
+  background-color: rgb(241, 230, 232);
+ 
+}
+.bottombar:hover{
+  font-size: 2.2rem;
+  color: orange;
+  background-color: bisque;
 }
 .contact_container {
-  width: 100%;
+  width: 90%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   height: 100vh;
@@ -263,23 +322,19 @@ button:disabled {
   width: 47%;
   height: 83vh;
   padding: 2%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(240, 246, 246);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.part{
-    display: flex;
-    width: 80%;
-    
-
-
+.part {
+  display: flex;
+  width: 80%;
 }
 #connect {
   color: forestgreen;
-
   font-size: 2rem;
   text-align: center;
   padding: 20px;
@@ -302,7 +357,7 @@ justify-content: space-around;
   width: 50%;
   height: 83vh;
   padding: 2%;
-  background-color: rgb(233, 211, 215);
+  background-color: rgb(230, 219, 221);
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
@@ -312,10 +367,12 @@ justify-content: space-around;
 }
 .footer {
   width: 100%;
-  height: 10vh;
-  background-color: rgb(233, 211, 215);
+  height: 8vh;
+  background-color: rgb(232, 222, 223);
   font-size: 1.5rem;
-  padding-top: 20px;
+  padding-top: 25px;
+  text-align: center;
+  margin-bottom: 2px;
 }
 input {
   width: 70%;
