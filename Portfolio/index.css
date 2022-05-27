@@ -35,12 +35,13 @@ body {
 a {
   text-decoration: none;
   color: gray;
+  font-size: 1.2rem;
 }
 a:hover {
   color: darkorange;
 }
 .home {
-margin-top: 6%;
+  margin-top: 6%;
   width: 100%;
   height: 75vh;
   background-color: rgb(27, 131, 97);
@@ -81,7 +82,6 @@ button {
 button:hover {
   padding: 15px;
 }
-
 button:disabled {
   background-color: rgb(233, 217, 75);
 }
@@ -185,6 +185,7 @@ button:disabled {
   margin: auto;
   height: 70vh;
   display: flex;
+  
 }
 .resumeheading {
   padding-top: 6%;
@@ -222,7 +223,6 @@ li {
   color: lightslategray;
   font-size: 1.2rem;
 }
-
 .resumeright_container {
   width: 40%;
   height: 60vh;
@@ -233,13 +233,14 @@ li {
 .perception {
   width: 90%;
   margin: auto;
-  height: 100vh;
+ 
   text-align: center;
 }
 .topheading {
   padding-top: 20px;
   padding-bottom: 10px;
   border-bottom: 8px solid orange;
+  color: forestgreen;
   width: 45%;
   margin: auto;
   font-size: 2.5rem;
@@ -393,4 +394,249 @@ label {
 }
 #message {
   height: 15vh;
+}
+@media (max-width:700px){
+  .main {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    height: 10vh;
+  }
+  .name1 {
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 2%;
+  }
+  .menu {
+
+    display: none;
+  }
+  .home {
+    
+    width: 90%;
+    margin: auto;
+
+    margin-top: 14%;
+    height: 55vh;
+    padding-left: 3%;
+    background-size: contain;
+
+  }
+  .leftpart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+  }
+  .ptext {
+    /* padding-top: 40px; */
+    font-size: 1.3rem;
+  }
+  button {
+    width: 140px;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 2%;
+  }
+  #buttoncontainer{
+    padding-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .aboutme {
+    padding-top: 3%;
+    height: 110vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .leftaboutme {
+    width: 100%;  
+    height: 50vh;
+    background-size: 100% 80%;
+  }
+  .rightaboutme {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  #about {
+    width:48%;
+    display: inline-block;
+    font-size: 2rem;
+    margin: auto;
+  }
+  .lower_right {
+    background-size: contain;
+    background-size: 100% 100%;
+  }
+  .portpolio {
+    width: 90%;
+    margin: auto;
+    height: 230vh;
+  }
+  #portfolio_text {
+
+    font-size: 2rem;
+    width: 60%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 250px 280px 220px 240px 240px 240px;
+    gap: 25px 0px;
+  }
+  .resumecontainer{
+    width: 90%;
+    margin: auto;
+  }
+  .myresume {
+    width: 100%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    
+  }
+  .resumeheading {
+   
+    font-size: 2.5rem;
+   
+  }
+  .resumeleft_container {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+  }
+  .workexper {
+    font-size: 1.6rem;
+  }
+  .education {
+    font-size: 1.6rem;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    font-size: 1.2rem;
+  }
+  .resumeright_container {
+  display: none;
+  }
+  .perception {
+    width: 90%;
+    margin: auto;
+  }
+  .topheading {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  .card_container {
+    margin-top: 5%;
+    width: 90%;
+    margin: auto;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 100%;
+    height: 40vh;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    padding: 10px;
+  }
+  .avatar {
+    height: 80px;
+    width: 80px;
+  }
+  .name {
+    color: black;
+    padding-top: 10px;
+    font-size: 2rem;
+    width: 100%;
+  }
+  .profession {
+    font-size: 1.3rem;
+  }
+  .bottombar {
+    width: 100%;
+    font-size: 1.3rem;
+    height: 10vh;
+    background-color: rgb(206, 177, 182);
+    margin-bottom: 15%;
+   
+  }
+  .bottombar:hover{
+    font-size: 1.5rem;
+  }
+  .contact_container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150vh;
+    margin-top: 30px;
+  }
+  .left_contact {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+  #connect {
+    font-size: 2rem;
+  }
+  #message {
+    font-size: 2rem;
+  }
+  #text1 {
+    font-size: 1.2rem;
+  }
+  .right_contact {
+    width: 100%;
+    height: 80vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    
+  }
+
+  input {
+    width: 90%;
+    font-size: 1rem;
+  }
+  label {
+    width: 90%;
+    margin: auto;
+  }
+  #message {
+    height: 15vh;
+  }
+  .footer {
+    width: 98%;
+    height: 6vh;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+}
+@media (min-width: 701px) and (max-width:1050px){
+
 }
