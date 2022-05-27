@@ -20,7 +20,7 @@ body {
 }
 .name1 {
   font-size: 32px;
-  width: 25%;
+  width: 30%;
   padding-left: 5%;
   text-align: left;
   font-weight: bolder;
@@ -118,6 +118,7 @@ button:disabled {
   width: 40%;
 }
 .text {
+  padding-top: 15px;
   text-align: justify;
   color: rgb(27, 131, 97);
 }
@@ -240,7 +241,7 @@ li {
   padding-bottom: 10px;
   border-bottom: 8px solid orange;
   color: forestgreen;
-  width: 45%;
+  width: 55%;
   margin: auto;
   font-size: 2.5rem;
   font-weight: bolder;
@@ -393,6 +394,146 @@ label {
 #message {
   height: 15vh;
 }
+@media (min-width: 701px) and (max-width: 1100px) {
+  .main {
+    width: 100%;
+    min-height: auto;
+  }
+  .navbar {
+    width: 100%;
+    height: 6vh;
+  }
+  .name1 {
+    font-size: 1.8rem;
+    width: 35%;
+  }
+  .home {
+    margin-top: 7%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-size: contain;
+  }
+  .aboutme {
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 94%;
+  }
+  .leftaboutme {
+    background-size: contain;
+  }
+  #about {
+    width: 50%;
+  }
+  .text{
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  .lower_right {
+    background-size: contain;
+    width: 100%;
+  }
+  .portpolio {
+    width: 96%;
+    margin: auto;
+    height: 82vh;
+    padding-bottom: 5%;
+  }
+  #portfolio_text {
+    width: 36%;
+  }
+  .grid-container {
+    grid-template-columns: auto auto;
+    grid-template-rows: 250px 250px 220px 250px 250px 250px;
+  }
+  .myresume {
+    width: 90%;
+    margin: auto;
+    height: 45vh;
+    display: flex;
+  }
+
+  .resumeleft_container {
+    width: 70%;
+    height: 45vh;
+  }
+
+  .resumeright_container {
+    width: 40%;
+    background-size: contain;
+  }
+  .perception {
+    width: 96%;
+  }
+  .topheading {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 70%;
+  }
+  .card_container {
+    margin-top: 5%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .card {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 30%;
+    height: 100%;
+  }
+  .avatar {
+    height: 80px;
+    width: 80px;
+  }
+
+  .name {
+    color: black;
+    font-size: 1.8rem;
+  }
+  .profession {
+    font-size: 1.2rem;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .bottombar {
+    width: 100%;
+    font-size: 1.8rem;
+    height: 8vh;
+  }
+  .bottombar:hover {
+    font-size: 2rem;
+  }
+  .contact_container {
+    width: 96%;
+    height: auto;
+margin-bottom: 5%;
+  }
+  .left_contact{
+    height: 50vh;
+  }
+  .right_contact{
+    height: 50vh;
+  }
+  #message {
+    height: 5vh;
+    font-size: 1.8rem;
+  }
+  .footer {
+    width: 100%;
+  }
+  input {
+    width: 80%;
+  }
+  label {
+    width: 80%;
+    margin: auto;
+  }
+}
 @media (max-width: 700px) {
   .main {
     width: 100%;
@@ -413,7 +554,7 @@ label {
     width: 90%;
     margin: auto;
 
-    margin-top: 14%;
+    margin-top: 15%;
     height: 55vh;
     padding-left: 3%;
     background-size: contain;
@@ -424,14 +565,14 @@ label {
     flex-direction: column;
     justify-content: center;
     color: white;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .ptext {
     /* padding-top: 40px; */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   button {
-    width: 140px;
+    width: 110px;
     border-radius: 8px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -464,7 +605,7 @@ label {
     justify-content: space-evenly;
   }
   #about {
-    width: 48%;
+    width: 65%;
     display: inline-block;
     font-size: 2rem;
     margin: auto;
@@ -476,11 +617,11 @@ label {
   .portpolio {
     width: 90%;
     margin: auto;
-    height: 230vh;
+    height: 100%;
   }
   #portfolio_text {
     font-size: 2rem;
-    width: 60%;
+    width: 80%;
   }
   .grid-container {
     display: grid;
@@ -509,10 +650,10 @@ label {
     margin: auto;
   }
   .workexper {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .education {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   ul {
     margin: 0px;
@@ -529,14 +670,15 @@ label {
     margin: auto;
   }
   .topheading {
+    margin-top: 10%;
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .card_container {
     margin-top: 5%;
     width: 90%;
     margin: auto;
-    height: 150vh;
+    height: 160vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -577,12 +719,12 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 150vh;
+    height: 160vh;
     margin-top: 30px;
   }
   .left_contact {
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -592,7 +734,7 @@ label {
     font-size: 2rem;
   }
   #message {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   #text1 {
     font-size: 1.2rem;
@@ -621,123 +763,9 @@ label {
   .footer {
     width: 98%;
     height: 6vh;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
 }
-@media (min-width: 701px) and (max-width: 1100px) {
-  .main {
-    width: 100%;
-  }
-  .navbar {
-    width: 100%;
-  }
-  .name1 {
-    font-size: 1.8rem;
-    width: 35%;
-  }
-  .home {
-    margin-top: 7%;
-    height: 60vh;
-    background-size: contain;
-  }
-  .aboutme {
-    height: 70vh;
-    width: 94%;
-  }
-  .leftaboutme {
-    background-size: contain;
-  }
-  #about {
-    width: 50%;
-  }
-  .lower_right {
-    background-size: contain;
-    width: 100%;
-  }
-  .portpolio {
-    width: 96%;
-    margin: auto;
-    height: 140vh;
-  }
-  #portfolio_text {
-    width: 36%;
-  }
-  .grid-container {
-    grid-template-columns: auto auto;
-    grid-template-rows: 250px 250px 220px 250px 250px 250px;
-  }
-  .myresume {
-    width: 90%;
-    margin: auto;
-    height: 70vh;
-    display: flex;
-  }
 
-  .resumeleft_container {
-    width: 70%;
-    height: 60vh;
-  }
-
-  .resumeright_container {
-    width: 40%;
-    background-size: contain;
-  }
-  .perception {
-    width: 96%;
-  }
-  .topheading {
-    width: 70%;
-  }
-  .card_container {
-    margin-top: 5%;
-    height: 70vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .card {
-    width: 30%;
-    height: 55vh;
-  }
-  .avatar {
-    height: 80px;
-    width: 80px;
-  }
-
-  .name {
-    color: black;
-    font-size: 1.8rem;
-  }
-  .profession {
-    font-size: 1.2rem;
-  }
-  .intro {
-    font-size: 1rem;
-  }
-  .bottombar {
-    width: 96%;
-    font-size: 1.8rem;
-    height: 13vh;
-  }
-  .bottombar:hover {
-    font-size: 2rem;
-  }
-  .contact_container {
-    width: 96%;
-  }
-  #message {
-    font-size: 1.8rem;
-  }
-  .footer {
-    width: 100%;
-  }
-  input {
-    width: 80%;
-  }
-  label {
-    width: 80%;
-    margin: auto;
-  }
-}
