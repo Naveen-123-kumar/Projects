@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .main_container {
   width: 90%;
   min-height: 94vh;
@@ -18,7 +19,7 @@ body {
   border-radius: 5px;
 }
 #left_container {
-  margin-right: .5%;
+  margin-right: 0.5%;
 }
 .clockbox {
   width: 100%;
@@ -65,31 +66,8 @@ body {
   border: solid 1px lightgray;
   color: #3d087bde;
   cursor: pointer;
-
 }
-#lunchTime{
-  border-radius: 5px;
-  padding-top: 4px;
-  text-align: left;
-  padding-bottom: 4px;
-  padding-inline: 40px;
-  border: solid 1px lightgray;
-  color: #3d087bde;
-  cursor: pointer;
-
-}
-#napTime{
-  border-radius: 5px;
-  padding-top: 4px;
-  text-align: left;
-  padding-bottom: 4px;
-  padding-inline: 40px;
-  border: solid 1px lightgray;
-  color: #3d087bde;
-  cursor: pointer;
-
-}
-#sleepTime{
+#lunchTime {
   border-radius: 5px;
   padding-top: 4px;
   text-align: left;
@@ -99,20 +77,25 @@ body {
   color: #3d087bde;
   cursor: pointer;
 }
-#dynamic-block{
-  height: 40px;
-  margin-top: 65px;
-  /* grid-column-start: 1;
-  grid-column-end: 2; */
-  width: 40%;
-  padding: 10px;
-  font-size: 15px;
-  border-radius: 10px;
-  /* border: 2px solid red; */
-  background-color: #F147C5;
-  color: white;
-  text-align: center;
-
+#napTime {
+  border-radius: 5px;
+  padding-top: 4px;
+  text-align: left;
+  padding-bottom: 4px;
+  padding-inline: 40px;
+  border: solid 1px lightgray;
+  color: #3d087bde;
+  cursor: pointer;
+}
+#sleepTime {
+  border-radius: 5px;
+  padding-top: 4px;
+  text-align: left;
+  padding-bottom: 4px;
+  padding-inline: 40px;
+  border: solid 1px lightgray;
+  color: #3d087bde;
+  cursor: pointer;
 }
 option {
   padding-top: 20px;

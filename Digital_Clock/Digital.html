@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="main_container">
-      <div class=" commonCss" id="left_container">
+      <div class="commonCss" id="left_container">
         <div class="clockbox">
           <img src="./Assets/Clock.png" id="clock" />
         </div>
@@ -21,7 +21,7 @@
             <div class="text_box">Set Wake up Time</div>
             <div class="box1Inner3">
               <select id="wakeuptime">
-                <option value="0" >Default</option>
+                <option value="0" selected>Default</option>
                 <option value="1">1 AM - 2 AM</option>
                 <option value="2">2 AM - 3 AM</option>
                 <option value="3">3 AM - 4 AM</option>
@@ -38,7 +38,7 @@
                 <option value="14">2 PM - 3 PM</option>
                 <option value="15">3 PM - 4 PM</option>
                 <option value="16">4 PM - 5 PM</option>
-                <option value="17" selected>5 PM - 6 PM</option>
+                <option value="17">5 PM - 6 PM</option>
                 <option value="18">6 PM - 7 PM</option>
                 <option value="19">7 PM - 8 PM</option>
                 <option value="20">8 PM - 9 PM</option>
@@ -158,14 +158,16 @@
             </div>
           </div>
         </div>
-        <div class=" timingbox" id="description_text">GOOD MORNING!! WAKE UP!!</div>
+        <div class="timingbox" id="description_text">
+          GOOD MORNING!! WAKE UP!!
+        </div>
         <div class="lower_section">
           <div class="set_time" onclick="settime()">Set Alarm!!</div>
           <div class="time-summary">
-            <p id="p1">WakeUp: 5AM-6AM</p>
-            <p id="p2">Lunch Time: 12PM-1PM</p>
-            <p>Nap Time: 4PM-5PM</p>
-            <p>Night Time: 8PM-9PM</p>
+            <p class="p1">Wakeup Time: 5AM-6AM</p>
+            <p class="p1">Lunch Time: 12PM-1PM</p>
+            <p class="p1">Nap Time: 4PM-5PM</p>
+            <p class="p1">Night Time: 8PM-9PM</p>
           </div>
         </div>
       </div>
