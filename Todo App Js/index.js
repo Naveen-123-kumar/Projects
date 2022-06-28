@@ -34,8 +34,15 @@ function createcardAndAppend(value) {
   innerdiv1.className = "text";
   innerdiv1.innerText = value;
   div.appendChild(innerdiv1);
-  let innerdiv2 = document.createElement("div");
-  innerdiv2.className = "material-icons";
+  let innerdiv2 = document.createElement("span");
+  innerdiv2.className = "material";
+  innerdiv2.innerText = "add"
+ innerdiv2.className = "material-icons"
+
+  innerdiv2.innerText = "delete"
+ innerdiv2.className = "material-icons"
+
+ innerdiv1.style.color='red';
   div.appendChild(innerdiv2);
   let dropZone = document.getElementsByClassName("card_container")[0];
   dropZone.appendChild(div);
@@ -48,6 +55,7 @@ function createcardAndAppend(value) {
 //   descriptitonCard.style.display = "flex";
 //   notshow1.className = "not_show";
 // });
+/*
 var notshow11 = document.getElementsByClassName("notshow1")[0];
 let card2 = document.querySelector("#circle1");
 card2.addEventListener("click", () => {
@@ -75,7 +83,10 @@ function createcardAndAppend1(value){
 }
 function closepopup1() {
   document.getElementsByClassName("pop-up")[0].style.display = "none";
-}
+}*/
+
+
+
 // let page1 = document.getElementsByClassName("page1")[0]
 // let page2 = document.getElementsByClassName("page2")[0] 
 // function func() {

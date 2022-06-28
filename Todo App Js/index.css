@@ -3,6 +3,10 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    /* background-color: black; */
+  }
+  .page2{
+    display: none;
   }
   .upper-container {
     display: flex;
@@ -79,13 +83,14 @@
     background-color: red;
     display: none;
   }
-  .material-icons{
+  .material{
     width: 30%;
     position: relative;
     background-color: aqua;
     height: 6vh;
     top: 5%;
-    left: 77%;
+    color: red;
+    /* left: 77%; */
 
   }
 .not_show {
